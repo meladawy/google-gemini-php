@@ -39,6 +39,21 @@ final class ListModelResponseFixture
                 'topK' => 32,
             ],
             [
+                'name' => 'models/gemini-1.5-pro-latest',
+                'version' => 'v1beta',
+                'displayName' => 'Gemini Pro 1.5 Beta',
+                'description' => 'The best image understanding model to handle a broad range of applications',
+                'inputTokenLimit' => 1048576,
+                'outputTokenLimit' => 8192,
+                'supportedGenerationMethods' => [
+                    'generateContent',
+                    'countTokens',
+                ],
+                'temperature' => 0.9,
+                'topP' => 1.0,
+                'topK' => 32,
+            ],
+            [
                 'name' => 'models/embedding-001',
                 'version' => '001',
                 'displayName' => 'Embedding 001',
